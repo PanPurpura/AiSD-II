@@ -18,14 +18,6 @@ void GPrime::add_edges(int start_ver)
     {
         p_queue.push(vertexList[start_ver][i]);
     }
-
-    /*for(int i = 0; i < vertexList[start_ver].size(); i++)
-    {
-        edge temp = p_queue.top();
-        p_queue.pop();
-
-        cout<<i<<". "<<temp.vertex_Index1<<"  "<<temp.vertex_Index2<<"  "<<temp.waga<<endl;
-    }*/
 }
 
 bool GPrime::check_if(edge temp)
