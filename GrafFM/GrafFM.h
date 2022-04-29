@@ -5,6 +5,7 @@
 #include <string>
 #include <sstream>
 #include "edge.h"
+#include "Graf.h"
 
 using namespace std;
 
